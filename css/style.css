@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body {
+    background-image: url(../imagens/fundo.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(247, 247, 247, 0.541);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 19px );
+    -webkit-backdrop-filter: blur( 19px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.conteudo {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-family: 'Indie Flower', cursive;
+    font-size: 4em;
+}
+
+.subtitulo {
+    font-size: 2em;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 20%;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.avatar__image {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.conteudo_principal {
+    padding: 25px;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+strong {
+    color: #68002c;
+    font-weight: 800;
+}
+
+.conteudo_principal h2 {
+    font-size: 1.5em;
+}
+
+.listaContato {
+    padding: 25px;
+}
+
+.listaContato img {
+    width: 25px;
+}
+
+.containerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 70px 70px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      ". . ."
+      ". . .";
+    width: 50%;
+    height: 50%;
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+
+  .containerGrid-caixa {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+  }
+
+  .icone {
+    text-align: center;
+  }
+
+  .icone img {
+    width: 50%;
+  }
+
+  .containerGrid-caixa a {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 800;
+    padding: 5px;
+  }
+  
+  .containerGrid-caixa p {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 5px;
+    text-align: center;
+  }
+
+  
